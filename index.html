@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Photo Gallery</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Luznery Vera">
+<link rel="stylesheet" type="text/css" href="css/w3schools.library.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<style>
+    html,
+body {
+    background: radial-gradient(circle at center, #FACFD9, #D60202);
+}
+
+h1,
+h2 {
+    font-family: "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+.desc {
+    background: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.w3-row-padding {
+    margin: 20px;
+}
+
+footer {
+    background: #500F44;
+    color: #fff;
+}
+
+footer:hover {
+    background: #6C1E5E;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #AAAAAA;
+}
+
+@font-face {
+    font-family: 'glyphicon-chevron-up';
+    src: url('../fonts/glyphicons-halfing-regular.ttf') format('truetype');
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/********** Small devices only **********/
+
+@media screen and (max-width: 768px) {
+    img {
+        margin-top: 15px;
+    }
+    footer {
+        margin-top: 235px;
+    }
+</style>
+</head>
+
+<body>
+    <div class="w3-container w3-animate-zoom" role="listbox">
+        <h1>Happy Women's Day</h1>
+        <h2>Day 8 March</h2>
+    </div>
+    <div class="w3-row-padding">
+        <div class="w3-container w3-third">
+            <a target="_blank" href="images/woman-1.jpg">
+                <img src="images/woman-1.jpg" style="width:100%;" class="w3-hover-opacity" alt="Image woman-1"></a>
+            <div class="desc w3-card-4">Add a description of the image here</div>
+        </div>
+        <div class="w3-container w3-third">
+            <a target="_blank" href="images/woman-2.jpg">
+                <img src="images/woman-2.jpg" style="width:100%;" class="w3-hover-opacity" alt="Image woman-2"></a>
+            <div class="desc w3-card-4">Add a description of the image here</div>
+        </div>
+        <div class="w3-container w3-third">
+            <a target="_blank" href="images/woman-3.jpg">
+                <img src="images/woman-3.jpg" style="width: 100%;" class="w3-hover-opacity" alt="Image woman-3"></a>
+            <div class="desc w3-card-4">Add a description of the image here</div>
+        </div>
+    </div>
+    <div class="w3-row-padding">
+        <div class="w3-container w3-third">
+            <a target="_blank" href="images/woman-4.jpg">
+                <img src="images/woman-4.jpg" style="width:100%;" class="w3-hover-opacity" alt="Image woman-4"></a>
+            <div class="desc w3-card-4">Add a description of the image here</div>
+        </div>
+        <div class="w3-container w3-third">
+            <a target="_blank" href="images/woman-5.jpg">
+                <img src="images/woman-5.jpg" style="width:100%;" class="w3-hover-opacity" alt="Image woman-5"></a>
+            <div class="desc w3-card-4">Add a description of the image here</div>
+        </div>
+        <div class="w3-container w3-third">
+            <a target="_blank" href="images/woman-6.jpg">
+                <img src="images/woman-6.jpg" style="width:100%;" class="w3-hover-opacity" alt="Image woman-6"> </a>
+            <div class="desc w3-card-4">Add a description of the image here</div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-padding-48 ">
+        <a href="index.html">To Top
+            <span class="glyphicon glyphicon-chevron-up" style="font-size: 30px;"></span></a>
+        <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"> w3.css</a> and <a href="http://getbootstrap.com" title="Bootstrap" target="_blank" class="w3-hover-opacity">Bootstrap</a>
+            <br> &copy; Copyright 2017 <a href="https://twitter.com/LuzneryVera" target="_blank">Luznery Vera</a>
+    </footer>
+</body>
+
+</html>
